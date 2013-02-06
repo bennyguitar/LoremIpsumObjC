@@ -15,7 +15,6 @@
     
     NSArray *components = [loremIpsum componentsSeparatedByString:@" "];
     NSString *newLoremIpsum = @"";
-    NSLog(@"%d",components.count);
     
     // Generate the string
     if (num > 1000) {
